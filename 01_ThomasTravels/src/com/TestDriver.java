@@ -14,7 +14,7 @@ public class TestDriver {
        
        Travel travel = new Travel();
        
-       System.out.println("Is joseph is a ar Driver? " +travel.isCarDriver(driverlist.get(0)));
+       System.out.println("Is joseph is a Driver? : " +travel.isCarDriver(driverlist.get(0)));
 	   System.out.print("\n"); 
        System.out.println(travel.retriveByDriverId(driverlist, 3));
        System.out.println("\n"
